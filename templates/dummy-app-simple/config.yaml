@@ -1,0 +1,22 @@
+project:
+  name: My Dummy Name
+  description: >
+    Hallo, I do provide a template set to generate a basic
+    web application. This will be a starting point for writing your
+    next successful web application.
+  version: 1.0.3
+  release-date: 2001-12-25
+
+contact:
+  author: Mario Scondo
+  email: email@dummy.com
+  website: http://www.dummy.com/dummy-project
+  website-demo: http://www.dummy.com/dummy-sample
+
+dependencies:
+  - go: >= 1.8
+  - echo: >= 3.1.0
+
+config:
+  delimiter-start: [[
+  delimiter-end: ]]
